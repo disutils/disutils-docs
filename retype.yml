@@ -1,0 +1,18 @@
+input: .
+output: .retype
+url: docs.disutils.com
+branding:
+  title: Disutils Team Docs
+  logo: /static/Distools-Transparent.png
+links:
+  - text: Home
+    link: https://disutils.com
+  - text: Invite Our Bots
+    link: https://disutils.com/bots
+  - text: Discord Server
+    link: https://discord.gg/28RuT8WsKT
+footer:
+  copyright: "&copy; Copyright © Disutils Team 2024. All rights reserved."
+
+favicon: /static/Distools-Transparent.png
+
