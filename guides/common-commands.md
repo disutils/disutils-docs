@@ -27,11 +27,11 @@ The `Misc` cog includes miscellaneous commands that don't fit into other categor
 
 
 If you want to go learn about a specific bot, click on the bot's name below:
-- [**Sentinel (Moderation Bot)**](/guides/bots/sentinel.md)
-- [**Playdis (Game Bot)**](/guides/bots/playdis.md)
-- [**UtiliCore (Utilities Bot)**](/guides/bots/utilicore.md)
-- [**Harmodify (Music Bot)**](/guides/bots/harmodify.md)
-- [**HelpDesk (Ticket Bot)**](/guides/bots/helpdesk.md)
-- [**Spotlight (Starboard Bot)**](/guides/bots/spotlight.md)
-- [**PrivateEyes (NSFW Bot)**](/guides/bots/privateeyes.md)
+- [**Sentinel (Moderation Bot)**](/guides/bots/Sentinel/overview.md)
+- [**Playdis (Game Bot)**](/guides/bots/Playdis/overview.md)
+- [**UtiliCore (Utilities Bot)**](/guides/bots/UtiliCore/overview.md)
+- [**Harmodify (Music Bot)**](/guides/bots/Harmodify/overview.md)
+- [**HelpDesk (Ticket Bot)**](/guides/bots/HelpDesk/overview.md)
+- [**Spotlight (Starboard Bot)**](/guides/bots/Spotlight/overview.md)
+- [**PrivateEyes (NSFW Bot)**](/guides/bots/PrivateEyes/overview.md)
 
