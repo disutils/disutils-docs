@@ -10,10 +10,10 @@ Welcome to the Disutils Team Documentation! This documentation is designed to he
 !!!warning
 Please note that this documentation is still under development, so some pages might be incomplete or absent. For the **best viewing experience**, we **recommend** accessing these documents on a **desktop or laptop**.
 !!!
-To get started with the documentation, check out the [Our Bots](/guides/bots) guide to find the documentation for the bot you are interested in.
+To get started with the documentation, check out the [Getting Started](/guides/getting-started) guide!
 
 
-## Our Bots
+## Public Bots
 
 - **Sentinel (Moderation Bot)**
 - **Playdis (Game Bot)**
@@ -22,7 +22,12 @@ To get started with the documentation, check out the [Our Bots](/guides/bots) gu
 - **HelpDesk (Ticket Bot)**
 - **Spotlight (Starboard Bot)**
 - **PrivateEyes (NSFW Bot)**
-- **Disutils Support AI (Personal Support Bot)**
+
+
+## Internal Bots
+
+- **VPSGuard (Internal Bot)** `Not Documented`
+- **Disutils Support AI (Internal Bot)** `Not Documented`
 
 ## Support
 
