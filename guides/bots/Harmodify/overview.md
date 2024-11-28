@@ -28,7 +28,7 @@ With its user-friendly interface and powerful capabilities, Harmodify takes your
 
 ---
 Ready to amplify your server? Try Harmodify today and transform the way your community connects through music!
-Invite <a class="external" href="https://example.org" target="_blank" style="display: inline-flex; align-items: center; text-decoration: none;">
+Invite <a class="external" href="https://disutils.com/bots" target="_blank" style="display: inline-flex; align-items: center; text-decoration: none;">
     Harmodify
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16" style="margin-left: 4px;">
         <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
