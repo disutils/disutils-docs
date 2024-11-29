@@ -2,12 +2,22 @@
 icon: gear
 order: 900
 ---
+<style>
+a.external{
+display: inline-flex;
+align-items: center;
+text-decoration: none;
+}
+a.external:hover {
+    text-decoration: underline;
+}
+</style>
 
 # Harmodify's Commands
 
 ___
 
-Harmodify cosists of a total of **33 commands**, that have been organized into **54 groups** for the ease of our users.
+Harmodify cosists of a total of **33 commands**, that have been organized into **3 groups** for the ease of our users.
 
 Here is a list of available groups and the commands included:
 <!-- 
@@ -26,8 +36,7 @@ Here is a list of available groups and the commands included:
 >     - [1.11. Lyrics](#111-lyrics)
 >   - [2. Info](#2-info)
 >     - [2.1 Spotify](#21-spotify)
->   - [3. Misc](#3-misc)
->   - [4. Owner](#4-owner) -->
+>   - [3. Misc](#3-misc) -->
 
 <blockquote style="width: 50%; font-size: 16px; padding: 10px; border-left: 4px solid #5865F2;">
 📋Table of Contents
@@ -107,19 +116,36 @@ Shuffles the current user queue.<br>
 
 ### 1.4. Nightcore
 Toggles on/off the Nightcore style. What is Nightcore? Have a look 
-<a class="external" href="https://en.wikipedia.org/wiki/Nightcore" target="_blank" style="display: inline-flex; align-items: center; text-decoration: none;">
+<a class="external" href="https://en.wikipedia.org/wiki/Nightcore" target="_blank" >
     here
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16" style="margin-left: 4px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+         class="bi bi-box-arrow-up-right" viewBox="0 0 16 16" style="margin-left: 4px;">
         <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
         <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
     </svg>
-.</a>
+</a>.
 
 ### 1.5. Bass
 
 ### 1.6. Toggle
+Pauses or Resumes the player depending on it's current state.<br>
+&emsp;**Requred Argument:** `None`
+
+&emsp;**Usage:**<br/>
+>/music toggle
+
+&emsp;**Response:**<br>
+&emsp;&emsp;Changes the current state of player if it's paused resumes the audio playback otherwise pauses the playback.
 
 ### 1.7. Volume
+Sets the Voume of the player.<br>
+&emsp;**Requred Argument:** `<value>`
+>`value` The amount you want the volume to be set at.<br>
+> - **Max Value:** 100
+> - **Min Value:** 0 (which is equal to muting the audio.)
+
+&emsp;**Response:**<br>
+&emsp;&emsp;Changes the volume to the amount you set it to be if it's a valid value.
 
 ### 1.8. Disconnect
 
