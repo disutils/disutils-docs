@@ -16,7 +16,7 @@ order: 1000
         }
 </style>
 
-# <img class="custom_image" src="/static/Harmodify.png" width=50 lenght=50> Harmodify
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/Harmodify.jpg" width=50 lenght=50> Harmodify
 
 Harmodify is the ultimate music and community engagement bot, designed to bring people together through the joy of music. Whether you're hosting a chill hangout or a high-energy event, Harmodify ensures seamless music management and a vibrant atmosphere for your server.
 ___
