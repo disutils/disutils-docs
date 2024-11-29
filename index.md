@@ -18,7 +18,7 @@ To get started with the documentation, check out the [Getting Started](/guides/g
 - **Sentinel (Moderation Bot)**
 - **Playdis (Game Bot)**
 - **UtiliCore (Utilities Bot)**
-- [**Harmodify (Music Bot)**](/guides/bots/Harmodify/overview)
+- [**Harmodify (Music Bot)**](/guides/bots/Harmodify/overview.md)
 - **HelpDesk (Ticket Bot)**
 - **Spotlight (Starboard Bot)**
 - **PrivateEyes (NSFW Bot)**

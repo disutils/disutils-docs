@@ -2,12 +2,16 @@
 icon: rocket
 order: 1000
 ---
+<style>
+    .custom_image {
+        border-radius:50%;
+        }
+</style>
 
-
-# **Overview**
----
+# <img class="custom_image" src="/static/Harmodify.png" width=50 lenght=50> Harmodify
 
 Harmodify is the ultimate music and community engagement bot, designed to bring people together through the joy of music. Whether you're hosting a chill hangout or a high-energy event, Harmodify ensures seamless music management and a vibrant atmosphere for your server.
+___
 
 ## 🗝️Key Features
 ---
