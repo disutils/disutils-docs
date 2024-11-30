@@ -20,7 +20,7 @@ a.external:hover {
 
 ___
 
-Harmodify cosists of a total of **23 commands**, that have been organized into **3 groups** for the ease of our users.
+Harmodify consists of a total of **23 commands**, that have been organized into **3 groups** for the ease of our users.
 
 Here is a list of available groups and the commands included:
 <!-- 
@@ -78,7 +78,7 @@ The commands in this group require you to be in a voice channel for functionalit
 ### 1.1 Play
 
 Plays a song with a qiven query.<br/>
-&emsp;**Requred Argument:** `<query>`
+&emsp;**Required Argument:** `<query>`
 > `<query>` can be one of the following.
 >- Name of song
 >- Url:
@@ -99,7 +99,7 @@ The details about the fucntioning of the buttons can be found [here](/guides/bot
 ### 1.2 Skip
 
 Skips the currently playing song.<br/>
-&emsp;**Requred Argument:** `None`
+&emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
 >/music skip
@@ -108,19 +108,19 @@ Skips the currently playing song.<br/>
 &emsp;&emsp;Sends a confirmation embed and skips the currently playing song.
 
 ### 1.3 Shuffle
-Shuffles the current user queue.<br>
-&emsp;**Requred Argument:** `None`
+Shuffles the current playing queue.<br>
+&emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
 >/music shuffle
 
 &emsp;**Response:**<br>
-&emsp;&emsp;Shuffles the current queue if there is one otherwise does nothing.
+&emsp;&emsp;Shuffles the current playing queue if there is one otherwise does nothing.
 
 
 ### 1.4 Nightcore
 Toggles on/off the Nightcore style.<br>
-&emsp;**Requred Argument:** `None`
+&emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
 >/music nightcore
@@ -138,34 +138,34 @@ What is Nightcore? Have a look
         <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
     </svg>
 </a>.<br>
-Even I don't know what is Nightcore. :skull:
+Even I don't know what Nightcore is. :skull:
 !!!
 
 ### 1.5 Bass
 
 Sets the bass level.<br>
-&emsp;**Require Argument:** `<level>`
+&emsp;**Required Argument:** `<level>`
 > `<level>` the bass boost level to set.
 > - **Max Value:** 100
 > - **Min Value:** 1
 
 &emsp;**Response:**<br>
-&emsp;&emsp;Sets the bass level to given level.
+&emsp;&emsp;Sets the bass level to the given level.
 ### 1.6 Toggle
 
 Pauses or Resumes the player depending on it's current state.<br>
-&emsp;**Requred Argument:** `None`
+&emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
 >/music toggle
 
 &emsp;**Response:**<br>
-&emsp;&emsp;Changes the current state of player if it's paused resumes the audio playback otherwise pauses the playback.
+&emsp;&emsp;Changes the current state of player if it's paused, it resumes the audio playback, otherwise pauses the playback.
 
 ### 1.7 Volume
 
-Sets the Voume of the player.<br>
-&emsp;**Requred Argument:** `<value>`
+Sets the Volume of the player.<br>
+&emsp;**Required Argument:** `<value>`
 > `<value>` The amount you want the volume to be set at.<br>
 > - **Max Value:** 100
 > - **Min Value:** 0 (which is equal to muting the audio.)
@@ -176,7 +176,7 @@ Sets the Voume of the player.<br>
 ### 1.8 Disconnect
 
 Stops the Music Player.<br>
-&emsp;**Requred Argument:** `None`
+&emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
 >/music disconnect
@@ -187,7 +187,7 @@ Stops the Music Player.<br>
 ### 1.9 Queue
 
 Shows the queue.<br>
-&emsp;**Requred Argument:** `None`
+&emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
 >/music queue
@@ -198,7 +198,7 @@ Shows the queue.<br>
 ### 1.10 Clear Queue
 
 Clears the queue.<br>
-&emsp;**Requred Argument:** `None`
+&emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
 >/music clearqueue
@@ -209,7 +209,7 @@ Clears the queue.<br>
 ### 1.11 Lyrics
 
 Fetches the lyrics of the searched Song.<br>
-&emsp;**Requred Argument:** `<title>` `[author]`
+&emsp;**Required Argument:** `<title>` `[author]`
 > - `<title>` the name of the song.<br>
 > - `[author]` (Optional) the singer of the song.
 
