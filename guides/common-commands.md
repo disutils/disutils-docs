@@ -17,7 +17,6 @@ The `Info` cog contains commands that provide information about the bot and its 
 - **/info staff**:  Check if a user is part of Disutils Team Staff!
 - **/info credits**: Shows credits on everyone who helped with this project!
 
-
 ## Misc Cog
 
 The `Misc` cog includes miscellaneous commands that don't fit into other categories.
@@ -25,13 +24,18 @@ The `Misc` cog includes miscellaneous commands that don't fit into other categor
 - **/bugreport**: Send a bug report to the developers.
 - **/suggest**: Send a suggestion to the developers.
 
-
 If you want to go learn about a specific bot, click on the bot's name below:
-- [**Sentinel (Moderation Bot)**](/guides/bots/Sentinel/overview.md)
-- [**Playdis (Game Bot)**](/guides/bots/Playdis/overview.md)
-- [**UtiliCore (Utilities Bot)**](/guides/bots/UtiliCore/overview.md)
-- [**Harmodify (Music Bot)**](/guides/bots/Harmodify/overview.md)
-- [**HelpDesk (Ticket Bot)**](/guides/bots/HelpDesk/overview.md)
-- [**Spotlight (Starboard Bot)**](/guides/bots/Spotlight/overview.md)
-- [**PrivateEyes (NSFW Bot)**](/guides/bots/PrivateEyes/overview.md)
 
+- [**Sentinel (Moderation Bot)**](/guides/bots/Sentinel/overview.md)
+
+- [**Playdis (Game Bot)**](/guides/bots/Playdis/overview.md)
+
+- [**UtiliCore (Utilities Bot)**](/guides/bots/UtiliCore/overview.md)
+
+- [**Harmodify (Music Bot)**](/guides/bots/Harmodify/overview.md)
+
+- [**HelpDesk (Ticket Bot)**](/guides/bots/HelpDesk/overview.md)
+
+- [**Spotlight (Starboard Bot)**](/guides/bots/Spotlight/overview.md)
+
+- [**PrivateEyes (NSFW Bot)**](/guides/bots/PrivateEyes/overview.md)
