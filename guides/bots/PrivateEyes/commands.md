@@ -4,12 +4,17 @@ order: 900
 ---
 
 <style>
-a.external{
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-}
-
+    a.external{
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    a.external:hover {
+        text-decoration: underline;
+    }
+    .custom_image {
+            border-radius:50%;
+        }
 </style>
 
 # <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 lenght=50> Private Eyes's Commands
