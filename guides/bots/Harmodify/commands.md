@@ -3,16 +3,16 @@ icon: gear
 order: 900
 ---
 <style>
-a.external{
-display: inline-flex;
-align-items: center;
-text-decoration: none;
-}
-a.external:hover {
-    text-decoration: underline;
-}
-.custom_image {
-        border-radius:50%;
+    a.external{
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    a.external:hover {
+        text-decoration: underline;
+    }
+    .custom_image {
+            border-radius:50%;
         }
 </style>
 
@@ -70,16 +70,20 @@ Here is a list of available groups and the commands included:
 </blockquote>
 
 ---
+
 ## 1. Music
+
 This group features a set of commands related to the Music functionality of the bot.
 !!!warning
 The commands in this group require you to be in a voice channel for functionality except Lyrics commands.
 !!!
+
 ### 1.1 Play
 
 Plays a song with a qiven query.<br/>
 &emsp;**Required Argument:** `<query>`
 > `<query>` can be one of the following.
+>
 >- Name of song
 >- Url:
 >   - Can either be pointing to a song or playlist.
@@ -108,6 +112,7 @@ Skips the currently playing song.<br/>
 &emsp;&emsp;Sends a confirmation embed and skips the currently playing song.
 
 ### 1.3 Shuffle
+
 Shuffles the current playing queue.<br>
 &emsp;**Required Argument:** `None`
 
@@ -117,8 +122,8 @@ Shuffles the current playing queue.<br>
 &emsp;**Response:**<br>
 &emsp;&emsp;Shuffles the current playing queue if there is one otherwise does nothing.
 
-
 ### 1.4 Nightcore
+
 Toggles on/off the Nightcore style.<br>
 &emsp;**Required Argument:** `None`
 
@@ -129,10 +134,10 @@ Toggles on/off the Nightcore style.<br>
 &emsp;&emsp;Increases Pitch and Speed of the songs currently being played and in queue.
 
 !!!Note
-What is Nightcore? Have a look 
+What is Nightcore? Have a look
 <a class="external" href="https://en.wikipedia.org/wiki/Nightcore" target="_blank" >
     here
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
          class="bi bi-box-arrow-up-right" viewBox="0 0 16 16" style="margin-left: 4px;">
         <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
         <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
@@ -146,11 +151,13 @@ Even I don't know what Nightcore is. :skull:
 Sets the bass level.<br>
 &emsp;**Required Argument:** `<level>`
 > `<level>` the bass boost level to set.
+>
 > - **Max Value:** 100
 > - **Min Value:** 1
 
 &emsp;**Response:**<br>
 &emsp;&emsp;Sets the bass level to the given level.
+
 ### 1.6 Toggle
 
 Pauses or Resumes the player depending on it's current state.<br>
@@ -167,6 +174,7 @@ Pauses or Resumes the player depending on it's current state.<br>
 Sets the Volume of the player.<br>
 &emsp;**Required Argument:** `<value>`
 > `<value>` The amount you want the volume to be set at.<br>
+>
 > - **Max Value:** 100
 > - **Min Value:** 0 (which is equal to muting the audio.)
 
@@ -210,6 +218,7 @@ Clears the queue.<br>
 
 Fetches the lyrics of the searched Song.<br>
 &emsp;**Required Argument:** `<title>` `[author]`
+>
 > - `<title>` the name of the song.<br>
 > - `[author]` (Optional) the singer of the song.
 
@@ -248,7 +257,7 @@ Shows the currently playing song in a user's activity.<br>
 !!!warning Note
 This command will only work if it is the orignal spotify client provided by <a class="external" href="https://open.spotify.com/" target="_blank" >
     Spotify
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
          class="bi bi-box-arrow-up-right" viewBox="0 0 16 16" style="margin-left: 4px;">
         <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
         <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
@@ -259,6 +268,7 @@ This command will only work if it is the orignal spotify client provided by <a c
 ---
 
 ## 3. Misc
+
 A set miscellenous commands that can be used for bug reporting and some other purposes that have nothing to do with the main functionality of bot.
 !!!Important
 This group is common to all our bots a details regarding this group can be found [here](/guides/common-commands.md#misc-cog).
