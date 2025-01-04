@@ -17,7 +17,7 @@ order: 900
         }
 </style>
 
-# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 lenght=50> Private Eyes's Commands
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 length=50> Private Eyes's Commands
 
 Private Eyes consists a total of **37 commands**, which are divided into **6 categories**.
 

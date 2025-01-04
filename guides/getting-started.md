@@ -1,8 +1,9 @@
 ---
 icon: rocket
 order: 1000
+title: "Getting Started"
 ---
-# Getting Started
+# 🚀 Getting Started
 !!!warning
 Do not actually type out `<` `>` `[` `]`, etc. These are placeholders for the actual arguments, and all commands are slash commands.
 !!!

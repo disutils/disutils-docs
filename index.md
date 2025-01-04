@@ -2,7 +2,13 @@
 icon: home-fill
 order: 1000
 ---
-# Disutils Team Documentation
+<style>
+    .custom_image {
+        border-radius:50%;
+    }
+</style>
+
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/assets/logo-disutils.png" width=50 length=50> Disutils Team Documentation
 
 Welcome to the Disutils Team Documentation! This documentation is designed to help you understand and use the various features of our Discord bots. We hope you find it helpful!
 
