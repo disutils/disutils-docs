@@ -124,7 +124,7 @@ Shows a list of available tags to be used in ``irl image`` command.<br/>
 ### 1.2 Image
 
 Fetches a random image based on the provided tags.<br/>
-&emsp;**Required Argument:** `tag`
+&emsp;**Required Argument:** `<tag>`
 !!!info Note
 The tag must be one of the tags provided in the `irl tags` command.
 !!!
@@ -281,7 +281,7 @@ Shows a list of available tags to be used in ``sfw image`` command.<br/>
 ### 2.2 Image
 
 Shows a random image based on the provided tags.<br/>
-&emsp;**Required Argument:** `tag`
+&emsp;**Required Argument:** `<tag>`
 !!!info Note
 The tag must be one of the tags provided in the `sfw tags` command.
 !!!
@@ -440,7 +440,7 @@ Shows a list of available tags to be used in ``nsfw image`` command.<br/>
 ### 3.2 Image
 
 Fetches a random image based on the provided tags.<br/>
-&emsp;**Required Argument:** `tag`
+&emsp;**Required Argument:** `<tag>`
 !!!info Note
 The tag must be one of the tags provided in the `nsfw tags` command.
 !!!

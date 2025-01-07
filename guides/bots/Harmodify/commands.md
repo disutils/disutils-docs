@@ -23,23 +23,6 @@ ___
 Harmodify consists of a total of **23 commands**, that have been organized into **3 groups** for the ease of our users.
 
 Here is a list of available groups and the commands included:
-<!-- 
-> - [Harmodify's Commands](#harmodifys-commands)
->   - [1. Music](#1-music)
->     - [1.1. Play](#11-play)
->     - [1.2. Skip](#12-skip)
->     - [1.3. Shuffle](#13-shuffle)
->     - [1.4. Nightcore](#14-nightcore)
->     - [1.5. Bass](#15-bass)
->     - [1.6. Toggle](#16-toggle)
->     - [1.7. Volume](#17-volume)
->     - [1.8. Disconnect](#18-disconnect)
->     - [1.9. Queue](#19-queue)
->     - [1.10. Clear Queue](#110-clear-queue)
->     - [1.11. Lyrics](#111-lyrics)
->   - [2. Info](#2-info)
->     - [2.1 Spotify](#21-spotify)
->   - [3. Misc](#3-misc) -->
 
 <blockquote style="width: 50%; font-size: 16px; padding: 10px; border-left: 4px solid #5865F2;">
 📋Table of Contents
@@ -94,10 +77,10 @@ Plays a song with a qiven query.<br/>
 > /music play `query: https://www.youtube.com/watch?v=8xg3vE8Ie_E`<br>
 > /music play `query: https://open.spotify.com/track/7hDoxkN20lLb06zifzYnD2`<br>
 
-![](/assets/harmodify/music_play_usage.png)
+![](https://images.disutils.com/disutils_docs/harmodify/music_play_usage.png)
 &emsp;**Response:**<br>
 &emsp;&emsp;Plays the searched song if found otherwise gives a not found error.
-![](/assets/harmodify/music_play_response.png)
+![](https://images.disutils.com/disutils_docs/harmodify/music_play_response.png)
 The details about the fucntioning of the buttons can be found [here](/guides/bots/Harmodify/play_button_info.md).
 
 ### 1.2 Skip

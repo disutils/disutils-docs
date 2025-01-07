@@ -22,9 +22,10 @@ visibility: 'hidden'
 </style>
 
 # Music Play Button's Info
-You can find the details regarding the buttons by pressing the 
+
+You can find the details regarding the buttons by pressing the
 <button class="custom-button">
-    <img src="/assets/harmodify/questionmark.png" alt="Icon" class="icon">
+    <img src="https://images.disutils.com/disutils_docs/harmodify/questionmark.png" alt="Icon" class="icon">
 </button>
 button.
-![👆An Embed Showing the info regarding the button's functionality.](/assets/harmodify/play_button_info.png)
+![👆An Embed Showing the info regarding the button's functionality.](https://images.disutils.com/disutils_docs/harmodify/play_button_info.png)
