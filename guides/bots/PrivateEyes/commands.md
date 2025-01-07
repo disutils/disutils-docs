@@ -145,8 +145,8 @@ The tag must be one of the tags provided in the `irl tags` command.
     border-radius: 8px;
     background-color:rgb(67, 93, 189);
 ">
-    ♡
-</button> - Adds the image to your favourites<br/>
+    ⟳
+</button> - Fetches a new image based on the same tag
 
 <button style="
     font-size: 20px;
@@ -155,8 +155,9 @@ The tag must be one of the tags provided in the `irl tags` command.
     border-radius: 8px;
     background-color: #F32013;
 ">
-    ⟳
-</button> - Fetches a new image based on the same tag
+    ♡
+</button> - Adds the image to your favourites<br/>
+
 !!!
 
 ### 1.3 Favourites
