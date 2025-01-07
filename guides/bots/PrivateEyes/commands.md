@@ -68,26 +68,26 @@ Here's a list of the commands with their respective categories:
                     <li><a href="#12-image">1.2 Image</a><br/></li>
                     <li><a href="#13-favourites">1.3 Favourites</a><br/></li>
                 </ul>
-            <li><a href="#3-misc">2. SFW</a><br />
+            <li><a href="#2-sfw-commands">2. SFW</a><br />
                 <ul>
-                    <li><a href="#11-play">2.1 Tags</a><br/></li>
-                    <li><a href="#12-skip">2.2 Image</a><br/></li>
-                    <li><a href="#13-shuffle">2.3 Favourites</a><br/></li>
+                    <li><a href="#21-tags">2.1 Tags</a><br/></li>
+                    <li><a href="#22-image">2.2 Image</a><br/></li>
+                    <li><a href="#23-favourites">2.3 Favourites</a><br/></li>
                 </ul>
-            <li><a href="#3-misc">3. NSFW</a><br />
+            <li><a href="#3-nsfw-commands">3. NSFW</a><br />
                 <ul>
-                    <li><a href="#11-play">3.1 Tags</a><br/></li>
-                    <li><a href="#12-skip">3.2 Image</a><br/></li>
-                    <li><a href="#13-shuffle">3.3 Favourites</a><br/></li>
+                    <li><a href="#31-tags">3.1 Tags</a><br/></li>
+                    <li><a href="#32-image">3.2 Image</a><br/></li>
+                    <li><a href="#33-favourites">3.3 Favourites</a><br/></li>
                 </ul>
-            <li><a href="#3-misc">4. Premium</a><br />
+            <li><a href="#4-premium-commands">4. Premium</a><br />
                 <ul>
-                    <li><a href="#11-play">4.1 IRL Tags</a><br/></li>
-                    <li><a href="#12-skip">4.2 IRL Image</a><br/></li>
-                    <li><a href="#11-play">4.3 NSFW Tags</a><br/></li>
-                    <li><a href="#12-skip">4.4 NSFW Image</a><br/></li>
-                    <li><a href="#11-play">4.5 SFW Tags</a><br/></li>
-                    <li><a href="#12-skip">4.6 SFW Image</a><br/></li>
+                    <li><a href="#41-sfw-tags">4.1 SFW Tags</a><br/></li>
+                    <li><a href="#42-nsfw-tags">4.2 NSFW Tags</a><br/></li>
+                    <li><a href="#43-irl-tags">4.3 IRL Tags</a><br/></li>
+                    <li><a href="#12-skip">4.4 SFW Image</a><br/></li>
+                    <li><a href="#11-play">4.5 NSFW Image</a><br/></li>
+                    <li><a href="#12-skip">4.6 IRL Image</a><br/></li>
                 </ul>
             <li><a href="#2-info">5. Info</a><br />
             <li><a href="#3-misc">6. Misc</a><br />
@@ -572,5 +572,68 @@ Show the images in your favourites list that were added via the <button style="
 
 ## 4. Premium Commands
 
-!!!info Note
-These commands are only available to premium users.
+!!!warning For Premium Users only
+These commands are only available to premium users. In order to use these commands you need to buy our premium subscription of **Anime Vault**. Which can be bought from Discord [here.](https://discord.com/application-directory/1295512320801374279/store/1322762632972861583)
+
+Go and get your premium subscription now to use these commands.
+!!!
+
+!!!
+Even I don't have access to these commands. RejectModders give me premium access or I ain't gonna write about these commands.
+!!!
+
+These commands are may look the same as the one above but trust me they have better results and of course more tags. So once again remember to lock the door but this time double check it.
+
+### 4.1 SFW Tags
+
+Shows a list of available tags to be used in ``premium sfw image`` command.<br/>
+&emsp;**Required Argument:** `None`
+
+&emsp;**Usage:**<br/>
+>/premium sfw tags
+
+&emsp;**Response:**<br>
+&emsp;&emsp;Returns a list of available tags.
+
+<div class="grid-container">
+    <div>
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_sfw_tags.png" alt="NSFW Tags" />
+    </div>
+</div>
+<figcaption>▲ Premium SFW Tags(Hover to reveal image)</figcaption>
+
+### 4.2 NSFW Tags
+
+Shows a list of available tags to be used in ``premium nsfw image`` command.<br/>
+&emsp;**Required Argument:** `None`
+
+&emsp;**Usage:**<br/>
+>/premium nsfw tags
+
+&emsp;**Response:**<br>
+&emsp;&emsp;Returns a list of available tags.
+
+<div class="grid-container">
+    <div class="blur-image">
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_nsfw_tags.png" alt="NSFW Tags" />
+    </div>
+</div>
+<figcaption>▲ Premium NSFW Tags(Hover to reveal image)</figcaption>
+
+### 4.3 IRL Tags
+
+Shows a list of available tags to be used in ``premium irl image`` command.<br/>
+&emsp;**Required Argument:** `None`
+
+&emsp;**Usage:**<br/>
+>/premium irl tags
+
+&emsp;**Response:**<br>
+&emsp;&emsp;Returns a list of available tags.
+
+<div class="grid-container">
+    <div class="blur-image">
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_irl_tags.png" alt="NSFW Tags" />
+    </div>
+</div>
+<figcaption>▲ Premium IRL Tags(Hover to reveal image)</figcaption>
