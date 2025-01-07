@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.789562218055">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.789564438576">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -31,11 +31,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../../static/distools-transparent.png" rel="icon">
-    <link href="../../../../resources/css/retype.css?v=3.6.0.789562218055" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=3.6.0.789564438576" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.6.0.789562218055" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.6.0.789564438576" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.6.0.789562218055" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.6.0.789564438576" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -260,26 +260,26 @@
                     <li><a href="#12-image">1.2 Image</a><br/></li>
                     <li><a href="#13-favourites">1.3 Favourites</a><br/></li>
                 </ul>
-            <li><a href="#3-misc">2. SFW</a><br />
+            <li><a href="#2-sfw-commands">2. SFW</a><br />
                 <ul>
-                    <li><a href="#11-play">2.1 Tags</a><br/></li>
-                    <li><a href="#12-skip">2.2 Image</a><br/></li>
-                    <li><a href="#13-shuffle">2.3 Favourites</a><br/></li>
+                    <li><a href="#21-tags">2.1 Tags</a><br/></li>
+                    <li><a href="#22-image">2.2 Image</a><br/></li>
+                    <li><a href="#23-favourites">2.3 Favourites</a><br/></li>
                 </ul>
-            <li><a href="#3-misc">3. NSFW</a><br />
+            <li><a href="#3-nsfw-commands">3. NSFW</a><br />
                 <ul>
-                    <li><a href="#11-play">3.1 Tags</a><br/></li>
-                    <li><a href="#12-skip">3.2 Image</a><br/></li>
-                    <li><a href="#13-shuffle">3.3 Favourites</a><br/></li>
+                    <li><a href="#31-tags">3.1 Tags</a><br/></li>
+                    <li><a href="#32-image">3.2 Image</a><br/></li>
+                    <li><a href="#33-favourites">3.3 Favourites</a><br/></li>
                 </ul>
-            <li><a href="#3-misc">4. Premium</a><br />
+            <li><a href="#4-premium-commands">4. Premium</a><br />
                 <ul>
-                    <li><a href="#11-play">4.1 IRL Tags</a><br/></li>
-                    <li><a href="#12-skip">4.2 IRL Image</a><br/></li>
-                    <li><a href="#11-play">4.3 NSFW Tags</a><br/></li>
-                    <li><a href="#12-skip">4.4 NSFW Image</a><br/></li>
-                    <li><a href="#11-play">4.5 SFW Tags</a><br/></li>
-                    <li><a href="#12-skip">4.6 SFW Image</a><br/></li>
+                    <li><a href="#41-sfw-tags">4.1 SFW Tags</a><br/></li>
+                    <li><a href="#42-nsfw-tags">4.2 NSFW Tags</a><br/></li>
+                    <li><a href="#43-irl-tags">4.3 IRL Tags</a><br/></li>
+                    <li><a href="#12-skip">4.4 SFW Image</a><br/></li>
+                    <li><a href="#11-play">4.5 NSFW Image</a><br/></li>
+                    <li><a href="#12-skip">4.6 IRL Image</a><br/></li>
                 </ul>
             <li><a href="#2-info">5. Info</a><br />
             <li><a href="#3-misc">6. Misc</a><br />
@@ -943,10 +943,28 @@ background-color:#F32013;
     </h2>
 </doc-anchor-target>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>For Premium Users only</h5>
+<p>These commands are only available to premium users. In order to use these commands you need to buy our premium subscription of <strong>Anime Vault</strong>. Which can be bought from Discord <a href="https://discord.com/application-directory/1295512320801374279/store/1322762632972861583">here.</a></p>
+<p>Go and get your premium subscription now to use these commands.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -955,11 +973,71 @@ background-color:#F32013;
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p>These commands are only available to premium users.</p>
+<p>Even I don&#x27;t have access to these commands. RejectModders give me premium access or I ain&#x27;t gonna write about these commands.</p>
         </div>
     </div>
 </div>
+<p>These commands are may look the same as the one above but trust me they have better results and of course more tags. So once again remember to lock the door but this time double check it.</p>
+<doc-anchor-target id="41-sfw-tags">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#41-sfw-tags">#</doc-anchor-trigger>
+        <span>4.1 SFW Tags</span>
+    </h3>
+</doc-anchor-target>
+<p>Shows a list of available tags to be used in <code v-pre>premium sfw image</code> command.<br/>
+ <strong>Required Argument:</strong> <code v-pre>None</code></p>
+<p> <strong>Usage:</strong><br/></p>
+<blockquote>
+<p>/premium sfw tags</p>
+</blockquote>
+<p> <strong>Response:</strong><br>
+  Returns a list of available tags.</p>
+<div class="grid-container">
+    <div>
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_sfw_tags.png" alt="NSFW Tags" />
+    </div>
+</div>
+<figcaption>▲ Premium SFW Tags(Hover to reveal image)</figcaption>
+<doc-anchor-target id="42-nsfw-tags">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#42-nsfw-tags">#</doc-anchor-trigger>
+        <span>4.2 NSFW Tags</span>
+    </h3>
+</doc-anchor-target>
+<p>Shows a list of available tags to be used in <code v-pre>premium nsfw image</code> command.<br/>
+ <strong>Required Argument:</strong> <code v-pre>None</code></p>
+<p> <strong>Usage:</strong><br/></p>
+<blockquote>
+<p>/premium nsfw tags</p>
+</blockquote>
+<p> <strong>Response:</strong><br>
+  Returns a list of available tags.</p>
+<div class="grid-container">
+    <div class="blur-image">
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_nsfw_tags.png" alt="NSFW Tags" />
+    </div>
+</div>
+<figcaption>▲ Premium NSFW Tags(Hover to reveal image)</figcaption>
+<doc-anchor-target id="43-irl-tags">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#43-irl-tags">#</doc-anchor-trigger>
+        <span>4.3 IRL Tags</span>
+    </h3>
+</doc-anchor-target>
+<p>Shows a list of available tags to be used in <code v-pre>premium irl image</code> command.<br/>
+ <strong>Required Argument:</strong> <code v-pre>None</code></p>
+<p> <strong>Usage:</strong><br/></p>
+<blockquote>
+<p>/premium irl tags</p>
+</blockquote>
+<p> <strong>Response:</strong><br>
+  Returns a list of available tags.</p>
+<div class="grid-container">
+    <div class="blur-image">
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_irl_tags.png" alt="NSFW Tags" />
+    </div>
+</div>
+<figcaption>▲ Premium IRL Tags(Hover to reveal image)</figcaption>
 
                                 
                                 <!-- Required only on API pages -->
