@@ -85,12 +85,12 @@ Here's a list of the commands with their respective categories:
                     <li><a href="#41-sfw-tags">4.1 SFW Tags</a><br/></li>
                     <li><a href="#42-nsfw-tags">4.2 NSFW Tags</a><br/></li>
                     <li><a href="#43-irl-tags">4.3 IRL Tags</a><br/></li>
-                    <li><a href="#12-skip">4.4 SFW Image</a><br/></li>
-                    <li><a href="#11-play">4.5 NSFW Image</a><br/></li>
-                    <li><a href="#12-skip">4.6 IRL Image</a><br/></li>
+                    <li><a href="#44-sfw-image">4.4 SFW Image</a><br/></li>
+                    <li><a href="#45-nsfw-image">4.5 NSFW Image</a><br/></li>
+                    <li><a href="#46-irl-image">4.6 IRL Image</a><br/></li>
                 </ul>
-            <li><a href="#2-info">5. Info</a><br />
-            <li><a href="#3-misc">6. Misc</a><br />
+            <li><a href="#5-info">5. Info</a><br />
+            <li><a href="#6-misc">6. Misc</a><br />
         </ul>
     </ul>
 </blockquote>
@@ -179,7 +179,7 @@ Show the images in your favourites list that were added via the <button style="
 &emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
->/irl tags
+>/irl favourites
 
 &emsp;**Response:**<br>
 &emsp;&emsp;Shows an embed paginator with to cycle your favourite list.
@@ -287,7 +287,7 @@ The tag must be one of the tags provided in the `sfw tags` command.
 !!!
 
 &emsp;**Usage:**<br/>
->/sfw image `tag: tag_from_sfw_tags`
+>/sfw image `tag: tag_from_sfw_tags`<br/>
 >/sfw image `tag: oppai`
 
 &emsp;**Response:**<br>
@@ -338,7 +338,7 @@ Show the images in your favourites list that were added via the <button style="
 &emsp;**Required Argument:** `None`
 
 &emsp;**Usage:**<br/>
->/sfw tags
+>/sfw favourites
 
 &emsp;**Response:**<br>
 &emsp;&emsp;Shows an embed paginator with to cycle your favourite list.
@@ -446,7 +446,7 @@ The tag must be one of the tags provided in the `nsfw tags` command.
 !!!
 
 &emsp;**Usage:**<br/>
->/nsfw image `tag: tag_from_nsfw_tags`
+>/nsfw image `tag: tag_from_nsfw_tags`<br/>
 >/nsfw image `tag: oppai`
 
 &emsp;**Response:**<br>
@@ -578,10 +578,6 @@ These commands are only available to premium users. In order to use these comman
 Go and get your premium subscription now to use these commands.
 !!!
 
-!!!
-Even I don't have access to these commands. RejectModders give me premium access or I ain't gonna write about these commands.
-!!!
-
 These commands are may look the same as the one above but trust me they have better results and of course more tags. So once again remember to lock the door but this time double check it.
 
 ### 4.1 SFW Tags
@@ -637,3 +633,157 @@ Shows a list of available tags to be used in ``premium irl image`` command.<br/>
     </div>
 </div>
 <figcaption>▲ Premium IRL Tags(Hover to reveal image)</figcaption>
+
+### 4.4 SFW Image
+
+Fetches a random image based on the provided tags but this time you can tag a user in there.<br/>
+&emsp;**Required Argument:** `<tag>` `<member>`
+!!!info Note
+The tag must be one of the tags provided in the `premium nsfw tags` command.
+!!!
+
+&emsp;**Usage:**<br/>
+>/premium sfw image `tag: tag_from_prem_sfw_tags` `member: @user`<br/>
+>/premium sfw image `tag: slap` `member: @RejectModderss`
+
+&emsp;**Response:**<br>
+&emsp;&emsp;Returns a random image based on the provided tag and tags the user in a message sent along the image.<br>
+
+<div class="grid-container">
+    <div>
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_sfw_image.png" alt="SFW Image" />
+    </div>
+</div>
+<figcaption>▲ Premium SFW Image</figcaption>
+
+!!! Additional Info on Buttons
+<button style="
+    font-size: 20px;
+    padding: 0px 16px;
+    border: 0px solid #333;
+    border-radius: 8px;
+    background-color:rgb(67, 93, 189);
+">
+    ⟳
+</button> - Fetches a new image based on the same tag
+
+<button style="
+    font-size: 20px;
+    padding: 0px 16px;
+    border: 0px solid #333;
+    border-radius: 8px;
+    background-color: #F32013;
+">
+    ♡
+</button> - Adds the image to your favourites (Can be found in ``sfw favourites``).<br/>
+
+!!!
+
+### 4.5 NSFW Image
+
+Fetches a random image based on the provided tags.<br/>
+&emsp;**Required Argument:** `<tag>` `<member>`
+!!!info Note
+The tag must be one of the tags provided in the `premium nsfw tags` command.
+!!!
+
+&emsp;**Usage:**<br/>
+>/premium nsfw image `tag: tag_from_prem_nsfw_tags`<br/>
+>/premium nsfw image `tag: maid`
+
+&emsp;**Response:**<br>
+&emsp;&emsp;Returns a random image based on the provided tag.<br>
+
+<div class="grid-container">
+    <div class="blur-image">
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_nsfw_image.png" alt="NSFW Image" />
+    </div>
+</div>
+<figcaption>▲ Premium NSFW Image(Hover to reveal image)</figcaption>
+
+!!! Additional Info on Buttons
+<button style="
+    font-size: 20px;
+    padding: 0px 16px;
+    border: 0px solid #333;
+    border-radius: 8px;
+    background-color:rgb(67, 93, 189);
+">
+    ⟳
+</button> - Fetches a new image based on the same tag
+
+<button style="
+    font-size: 20px;
+    padding: 0px 16px;
+    border: 0px solid #333;
+    border-radius: 8px;
+    background-color: #F32013;
+">
+    ♡
+</button> - Adds the image to your favourites (Can be found in ``nsfw favourites``).<br/>
+
+!!!
+
+### 4.6 IRL Image
+
+Fetches a random image based on the provided tags.<br/>
+&emsp;**Required Argument:** `<tag>`
+!!!info Note
+The tag must be one of the tags provided in the `premium irl tags` command.
+!!!
+
+&emsp;**Usage:**<br/>
+>/premium irl image `tag: tag_from_prem_irl_tags`<br/>
+>/premium irl image `tag: cosplay`
+
+&emsp;**Response:**<br>
+&emsp;&emsp;Returns a random image based on the provided tag.<br>
+
+<div class="grid-container">
+    <div class="blur-image">
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_irl_image.png" alt="IRL Image" />
+    </div>
+</div>
+<figcaption>▲ Premium IRL Image(Hover to reveal image)</figcaption>
+
+!!! Additional Info on Buttons
+<button style="
+    font-size: 20px;
+    padding: 0px 16px;
+    border: 0px solid #333;
+    border-radius: 8px;
+    background-color:rgb(67, 93, 189);
+">
+    ⟳
+</button> - Fetches a new image based on the same tag
+
+<button style="
+    font-size: 20px;
+    padding: 0px 16px;
+    border: 0px solid #333;
+    border-radius: 8px;
+    background-color: #F32013;
+">
+    ♡
+</button> - Adds the image to your favourites (Can be found in ``irl favourites``). <br/>
+
+!!!
+
+## 5. Info
+
+A set of commands to know various info regarding the bot or a user.
+
+!!!Important
+This group is common to all our bots a details regarding this group can be found [here](/guides/common-commands.md#info-cog).
+!!!
+
+---
+
+## 6. Misc
+
+A set miscellenous commands that can be used for bug reporting and some other purposes that have nothing to do with the main functionality of bot.
+!!!Important
+This group is common to all our bots a details regarding this group can be found [here](/guides/common-commands.md#misc-cog).
+!!!
+
+---
