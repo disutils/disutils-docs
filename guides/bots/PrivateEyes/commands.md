@@ -95,6 +95,8 @@ Here's a list of the commands with their respective categories:
     </ul>
 </blockquote>
 
+___
+
 ## 1. IRL Commands
 
 !!!danger Warning
@@ -252,6 +254,8 @@ Show the images in your favourites list that were added via the <button style="
     <img src="https://images.disutils.com/disutils_docs/private_eyes/unlike.png" width=27 length=20>
 </button> - Unfavourite the currently displayed image.<br/>
 !!!
+
+___
 
 ## 2. SFW Commands
 
@@ -412,6 +416,8 @@ Show the images in your favourites list that were added via the <button style="
 </button> - Unfavourite the currently displayed image.<br/>
 !!!
 
+___
+
 ## 3. NSFW Commands
 
 !!!danger Warning
@@ -569,6 +575,8 @@ Show the images in your favourites list that were added via the <button style="
     <img src="https://images.disutils.com/disutils_docs/private_eyes/unlike.png" width=27 length=20>
 </button> - Unfavourite the currently displayed image.<br/>
 !!!
+
+___
 
 ## 4. Premium Commands
 
@@ -768,6 +776,8 @@ The tag must be one of the tags provided in the `premium irl tags` command.
 </button> - Adds the image to your favourites (Can be found in ``irl favourites``). <br/>
 
 !!!
+
+___
 
 ## 5. Info
 
