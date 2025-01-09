@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.789564438576">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.789743384938">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -31,11 +31,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../../static/distools-transparent.png" rel="icon">
-    <link href="../../../../resources/css/retype.css?v=3.6.0.789564438576" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=3.6.0.789743384938" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.6.0.789564438576" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.6.0.789743384938" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.6.0.789564438576" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.6.0.789743384938" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -229,6 +229,7 @@
         <span><img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 length=50> Private Eyes&#x27;s Commands</span>
     </h1>
 </doc-anchor-target>
+<hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -277,15 +278,16 @@
                     <li><a href="#41-sfw-tags">4.1 SFW Tags</a><br/></li>
                     <li><a href="#42-nsfw-tags">4.2 NSFW Tags</a><br/></li>
                     <li><a href="#43-irl-tags">4.3 IRL Tags</a><br/></li>
-                    <li><a href="#12-skip">4.4 SFW Image</a><br/></li>
-                    <li><a href="#11-play">4.5 NSFW Image</a><br/></li>
-                    <li><a href="#12-skip">4.6 IRL Image</a><br/></li>
+                    <li><a href="#44-sfw-image">4.4 SFW Image</a><br/></li>
+                    <li><a href="#45-nsfw-image">4.5 NSFW Image</a><br/></li>
+                    <li><a href="#46-irl-image">4.6 IRL Image</a><br/></li>
                 </ul>
-            <li><a href="#2-info">5. Info</a><br />
-            <li><a href="#3-misc">6. Misc</a><br />
+            <li><a href="#5-info">5. Info</a><br />
+            <li><a href="#6-misc">6. Misc</a><br />
         </ul>
     </ul>
 </blockquote>
+<hr>
 <doc-anchor-target id="1-irl-commands">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#1-irl-commands">#</doc-anchor-trigger>
@@ -421,7 +423,7 @@ background-color:rgb(67, 93, 189);
 <p> <strong>Required Argument:</strong> <code v-pre>None</code></p>
 <p> <strong>Usage:</strong><br/></p>
 <blockquote>
-<p>/irl tags</p>
+<p>/irl favourites</p>
 </blockquote>
 <p> <strong>Response:</strong><br>
   Shows an embed paginator with to cycle your favourite list.</p>
@@ -502,6 +504,7 @@ background-color:#F32013;
         </div>
     </div>
 </div>
+<hr>
 <doc-anchor-target id="2-sfw-commands">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#2-sfw-commands">#</doc-anchor-trigger>
@@ -574,7 +577,7 @@ background-color:#F32013;
 </div>
 <p> <strong>Usage:</strong><br/></p>
 <blockquote>
-<p>/sfw image <code v-pre>tag: tag_from_sfw_tags</code>
+<p>/sfw image <code v-pre>tag: tag_from_sfw_tags</code><br/>
 /sfw image <code v-pre>tag: oppai</code></p>
 </blockquote>
 <p> <strong>Response:</strong><br>
@@ -638,7 +641,7 @@ background-color:rgb(67, 93, 189);
 <p> <strong>Required Argument:</strong> <code v-pre>None</code></p>
 <p> <strong>Usage:</strong><br/></p>
 <blockquote>
-<p>/sfw tags</p>
+<p>/sfw favourites</p>
 </blockquote>
 <p> <strong>Response:</strong><br>
   Shows an embed paginator with to cycle your favourite list.</p>
@@ -719,6 +722,7 @@ background-color:#F32013;
         </div>
     </div>
 </div>
+<hr>
 <doc-anchor-target id="3-nsfw-commands">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#3-nsfw-commands">#</doc-anchor-trigger>
@@ -791,7 +795,7 @@ background-color:#F32013;
 </div>
 <p> <strong>Usage:</strong><br/></p>
 <blockquote>
-<p>/nsfw image <code v-pre>tag: tag_from_nsfw_tags</code>
+<p>/nsfw image <code v-pre>tag: tag_from_nsfw_tags</code><br/>
 /nsfw image <code v-pre>tag: oppai</code></p>
 </blockquote>
 <p> <strong>Response:</strong><br>
@@ -936,6 +940,7 @@ background-color:#F32013;
         </div>
     </div>
 </div>
+<hr>
 <doc-anchor-target id="4-premium-commands">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#4-premium-commands">#</doc-anchor-trigger>
@@ -957,23 +962,6 @@ background-color:#F32013;
             <h5>For Premium Users only</h5>
 <p>These commands are only available to premium users. In order to use these commands you need to buy our premium subscription of <strong>Anime Vault</strong>. Which can be bought from Discord <a href="https://discord.com/application-directory/1295512320801374279/store/1322762632972861583">here.</a></p>
 <p>Go and get your premium subscription now to use these commands.</p>
-        </div>
-    </div>
-</div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>Even I don&#x27;t have access to these commands. RejectModders give me premium access or I ain&#x27;t gonna write about these commands.</p>
         </div>
     </div>
 </div>
@@ -1038,6 +1026,281 @@ background-color:#F32013;
     </div>
 </div>
 <figcaption>▲ Premium IRL Tags(Hover to reveal image)</figcaption>
+<doc-anchor-target id="44-sfw-image">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#44-sfw-image">#</doc-anchor-trigger>
+        <span>4.4 SFW Image</span>
+    </h3>
+</doc-anchor-target>
+<p>Fetches a random image based on the provided tags but this time you can tag a user in there.<br/>
+ <strong>Required Argument:</strong> <code v-pre>&lt;tag&gt;</code> <code v-pre>&lt;member&gt;</code></p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Note</h5>
+<p>The tag must be one of the tags provided in the <code v-pre>premium nsfw tags</code> command.</p>
+        </div>
+    </div>
+</div>
+<p> <strong>Usage:</strong><br/></p>
+<blockquote>
+<p>/premium sfw image <code v-pre>tag: tag_from_prem_sfw_tags</code> <code v-pre>member: @user</code><br/>
+/premium sfw image <code v-pre>tag: slap</code> <code v-pre>member: @RejectModderss</code></p>
+</blockquote>
+<p> <strong>Response:</strong><br>
+  Returns a random image based on the provided tag and tags the user in a message sent along the image.<br></p>
+<div class="grid-container">
+    <div>
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_sfw_image.png" alt="SFW Image" />
+    </div>
+</div>
+<figcaption>▲ Premium SFW Image</figcaption>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Additional Info on Buttons</h5>
+<p><button style="
+font-size: 20px;
+padding: 0px 16px;
+border: 0px solid #333;
+border-radius: 8px;
+background-color:rgb(67, 93, 189);
+">
+⟳
+</button> - Fetches a new image based on the same tag</p>
+<p><button style="
+font-size: 20px;
+padding: 0px 16px;
+border: 0px solid #333;
+border-radius: 8px;
+background-color: #F32013;
+">
+♡
+</button> - Adds the image to your favourites (Can be found in <code v-pre>sfw favourites</code>).<br/></p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="45-nsfw-image">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#45-nsfw-image">#</doc-anchor-trigger>
+        <span>4.5 NSFW Image</span>
+    </h3>
+</doc-anchor-target>
+<p>Fetches a random image based on the provided tags.<br/>
+ <strong>Required Argument:</strong> <code v-pre>&lt;tag&gt;</code> <code v-pre>&lt;member&gt;</code></p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Note</h5>
+<p>The tag must be one of the tags provided in the <code v-pre>premium nsfw tags</code> command.</p>
+        </div>
+    </div>
+</div>
+<p> <strong>Usage:</strong><br/></p>
+<blockquote>
+<p>/premium nsfw image <code v-pre>tag: tag_from_prem_nsfw_tags</code><br/>
+/premium nsfw image <code v-pre>tag: maid</code></p>
+</blockquote>
+<p> <strong>Response:</strong><br>
+  Returns a random image based on the provided tag.<br></p>
+<div class="grid-container">
+    <div class="blur-image">
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_nsfw_image.png" alt="NSFW Image" />
+    </div>
+</div>
+<figcaption>▲ Premium NSFW Image(Hover to reveal image)</figcaption>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Additional Info on Buttons</h5>
+<p><button style="
+font-size: 20px;
+padding: 0px 16px;
+border: 0px solid #333;
+border-radius: 8px;
+background-color:rgb(67, 93, 189);
+">
+⟳
+</button> - Fetches a new image based on the same tag</p>
+<p><button style="
+font-size: 20px;
+padding: 0px 16px;
+border: 0px solid #333;
+border-radius: 8px;
+background-color: #F32013;
+">
+♡
+</button> - Adds the image to your favourites (Can be found in <code v-pre>nsfw favourites</code>).<br/></p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="46-irl-image">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#46-irl-image">#</doc-anchor-trigger>
+        <span>4.6 IRL Image</span>
+    </h3>
+</doc-anchor-target>
+<p>Fetches a random image based on the provided tags.<br/>
+ <strong>Required Argument:</strong> <code v-pre>&lt;tag&gt;</code></p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Note</h5>
+<p>The tag must be one of the tags provided in the <code v-pre>premium irl tags</code> command.</p>
+        </div>
+    </div>
+</div>
+<p> <strong>Usage:</strong><br/></p>
+<blockquote>
+<p>/premium irl image <code v-pre>tag: tag_from_prem_irl_tags</code><br/>
+/premium irl image <code v-pre>tag: cosplay</code></p>
+</blockquote>
+<p> <strong>Response:</strong><br>
+  Returns a random image based on the provided tag.<br></p>
+<div class="grid-container">
+    <div class="blur-image">
+        <img src="https://images.disutils.com/disutils_docs/private_eyes/prem_irl_image.png" alt="IRL Image" />
+    </div>
+</div>
+<figcaption>▲ Premium IRL Image(Hover to reveal image)</figcaption>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Additional Info on Buttons</h5>
+<p><button style="
+font-size: 20px;
+padding: 0px 16px;
+border: 0px solid #333;
+border-radius: 8px;
+background-color:rgb(67, 93, 189);
+">
+⟳
+</button> - Fetches a new image based on the same tag</p>
+<p><button style="
+font-size: 20px;
+padding: 0px 16px;
+border: 0px solid #333;
+border-radius: 8px;
+background-color: #F32013;
+">
+♡
+</button> - Adds the image to your favourites (Can be found in <code v-pre>irl favourites</code>). <br/></p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="5-info">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#5-info">#</doc-anchor-trigger>
+        <span>5. Info</span>
+    </h2>
+</doc-anchor-target>
+<p>A set of commands to know various info regarding the bot or a user.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Important</h5>
+<p>This group is common to all our bots a details regarding this group can be found <a href="../../../common-commands/#info-cog">here</a>.</p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="6-misc">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#6-misc">#</doc-anchor-trigger>
+        <span>6. Misc</span>
+    </h2>
+</doc-anchor-target>
+<p>A set miscellenous commands that can be used for bug reporting and some other purposes that have nothing to do with the main functionality of bot.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Important</h5>
+<p>This group is common to all our bots a details regarding this group can be found <a href="../../../common-commands/#misc-cog">here</a>.</p>
+        </div>
+    </div>
+</div>
+<hr>
 
                                 
                                 <!-- Required only on API pages -->
