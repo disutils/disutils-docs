@@ -47,7 +47,7 @@ order: 900
     }
 </style>
 
-# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 length=50> Private Eyes's Commands
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 length=50> PrivateEyes's Commands
 
 ___
 
@@ -55,14 +55,14 @@ ___
 I'm a boob guy so all the pics I'm going to use are related to boobs. If you're not comfortable with that, then I don't care because I like it that way. If you're still reading this, then you're a pervert like me.
 !!!
 
-Private Eyes consists a total of **37 commands**, which are divided into **6 categories**.
+PrivateEyes consists a total of **37 commands**, which are divided into **6 categories**.
 
 Here's a list of the commands with their respective categories:
 
 <blockquote style="width: 50%; font-size: 16px; padding: 10px; border-left: 4px solid #5865F2;">
 📋Table of Contents
     <ul>
-        <li><a href="#private-eyess-commands">Private Eyes's Commands</a><br /></li>
+        <li><a href="#private-eyess-commands">PrivateEyes's Commands</a><br /></li>
         <ul>
             <li><a href="#1-irl-commands">1. IRL</a><br /></li>
                 <ul>

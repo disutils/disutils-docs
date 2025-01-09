@@ -16,7 +16,7 @@ order: 1000
         }
 </style>
 
-# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 lenght=50> Private Eyes
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 lenght=50> PrivateEyes
 
 !!!Danger 🔞NFSW Content
 This bot contains NSFW content. So viewer discretion is advised. If you’re under 18, kindly close this page and go solve a math problem instead.
@@ -56,7 +56,7 @@ Click that Invite button, and let PrivateEyes be your server’s new BFF. 🌟 S
 
 **🕵️‍♂️ PrivateEyes: Because your community deserves a little mystery, magic, and mischief. 😉**
 Invite <a class="external" href="https://disutils.com/bots" target="_blank">
-    Private Eyes
+    PrivateEyes
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16" style="margin-left: 4px;">
         <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
         <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
