@@ -12,12 +12,11 @@ order: 900
         text-decoration: underline;
     }
     .custom-image {
-    width: 50px; 
-    height: 50px; 
+    width: 24px; 
+    height: 24px;
     border-radius: 50%; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-bottom: 1rem; 
+    object-fit: cover; 
+    overflow: hidden; 
     }
 </style>
 
