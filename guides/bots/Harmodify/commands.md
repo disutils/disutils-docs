@@ -12,13 +12,15 @@ order: 900
         text-decoration: underline;
     }
     .custom_image {
+    width: 50px; 
+    height: 50px; 
     border-radius: 50%; 
     object-fit: cover; 
     overflow: hidden; 
     }
 </style>
 
-# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/Harmodify.jpg" width=50 lenght=50> Harmodify's Commands
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/Harmodify.jpg"> Harmodify's Commands
 
 ___
 
