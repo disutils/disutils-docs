@@ -11,12 +11,17 @@ order: 900
     a.external:hover {
         text-decoration: underline;
     }
-    .custom_image {
-            border-radius:50%;
-        }
+    .custom-image {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 1rem; 
+    }
 </style>
 
-# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/Harmodify.jpg" width=50 lenght=50> Harmodify's Commands
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/Harmodify.jpg"> Harmodify's Commands
 
 ___
 
