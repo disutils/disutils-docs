@@ -4,19 +4,23 @@ order: 1000
 ---
 <style>
     .custom_image {
-        border-radius:50%;
-        }
+        width: 50px; 
+        height: 50px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+        overflow: hidden; 
+    }
     a.external{
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-        }
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+    }
     a.external:hover {
         text-decoration: underline;
-        }
+    }
 </style>
 
-# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg" width=50 lenght=50> PrivateEyes
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/profile_pictures_jpg/PrivateEyes.jpg"> PrivateEyes
 
 !!!Danger 🔞NFSW Content
 This bot contains NSFW content. So viewer discretion is advised. If you’re under 18, kindly close this page and go solve a math problem instead.
