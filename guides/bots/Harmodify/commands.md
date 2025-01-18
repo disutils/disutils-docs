@@ -11,7 +11,7 @@ order: 900
     a.external:hover {
         text-decoration: underline;
     }
-    .custom-image {
+    .custom_image {
     width: 24px; 
     height: 24px;
     border-radius: 50%; 
