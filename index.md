@@ -4,11 +4,15 @@ order: 1000
 ---
 <style>
     .custom_image {
-        border-radius:50%;
+        width: 50px; 
+        height: 50px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+        overflow: hidden; 
     }
 </style>
 
-# <img class="custom_image" src="https://images.disutils.com/bot_assets/assets/logo-disutils.png" width=50 length=50> Disutils Team Documentation
+# <img class="custom_image" src="https://images.disutils.com/bot_assets/assets/logo-disutils.png"> Disutils Team Documentation
 
 Welcome to the Disutils Team Documentation! This documentation is designed to help you understand and use the various features of our Discord bots. We hope you find it helpful!
 
